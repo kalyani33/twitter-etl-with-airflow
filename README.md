@@ -56,3 +56,11 @@ mkdir twitter_dag
 nano airflow.cfg
 ```
 edit the AIRFLOW_DAGS variable to twitter_dags folder
+Run the twitter dag from the airflow UI and this will generate the output file into S3 bucket
+## Issues Faced
+- From Amazon S3 side ,handle the bucket policies to put the object into the bucket
+- Tracing the errors in the Apache Airflow
+- Airflow Setup
+## Improvement
+- Need to write the code with PYSPARK and deployment onto Airflow
+- Write a code that can interact with some database
