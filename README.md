@@ -1,5 +1,9 @@
 # twitter-etl-with-airflow
-## Apache Airflow Installation steps in windows without using Docker,using WSL(Ubuntu)
+## Project Architecture
+<img width="1000" height="500" alt="image" src="https://github.com/kalyani33/twitter-etl-with-airflow/assets/37569003/8c00f673-acd9-43df-899d-033ed661ca25">
+
+## Apache Airflow Installation steps
+###  Installation in windows without using Docker,using WSL(Ubuntu)
 - Open a command prompt and update wsl with following commands
   ```
   wsl --update
